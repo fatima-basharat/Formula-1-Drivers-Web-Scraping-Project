@@ -50,7 +50,7 @@ The dataset underwent several cleaning steps to ensure accurate and meaningful a
       labs(y = "Championships won", x = "Pole positions") +
       theme_minimal()
 
-![image](https://github.com/user-attachments/assets/4cf4a8be-779d-43bc-beaf-ada50b61c613)
+<img src="https://github.com/user-attachments/assets/4cf4a8be-779d-43bc-beaf-ada50b61c613" alt="image" width="50%"/>
 
 
 ## Conclusion
