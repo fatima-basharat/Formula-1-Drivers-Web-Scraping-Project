@@ -42,16 +42,16 @@ The dataset underwent several cleaning steps to ensure accurate and meaningful a
 3. **Is there a relation between the number of Championships won and the number of race pole positions?**
    - A scatter plot visualizes the relationship between pole positions and championships won.
      
- ```r
-  drivers_F1 %>%
+   ```r
+    drivers_F1 %>%
       filter(`Pole positions` > 1) %>%
       ggplot(aes(x = as.double(`Pole positions`), y = as.double(`Drivers' Championships`))) +
       geom_point(position = "jitter") +
       labs(y = "Championships won", x = "Pole positions") +
       theme_minimal()
 
+![image](https://github.com/user-attachments/assets/162f626e-9c13-42d3-856e-7715db0649af)
+
 
 ## Conclusion
 This project successfully scrapes and cleans data from a web page, leading to meaningful insights about Formula 1 drivers. The analysis answers key questions related to drivers' performance, providing a foundation for further exploration and study in the world of Formula 1.
-
- 
