@@ -21,7 +21,7 @@ The dataset underwent several cleaning steps to ensure accurate and meaningful a
 ## Data Set Questions and Answers
 
 1. **Which country has the largest number of wins?**
-   - The analysis shows that certain countries have produced drivers with a high number of championship wins.
+   - The analysis shows that the UK has drivers with the highest number of championship wins.
 
    ```r
    drivers_F1 %>%
@@ -30,7 +30,7 @@ The dataset underwent several cleaning steps to ensure accurate and meaningful a
      arrange(desc(championship_country))
 
 2. **Who has the most Championships?**
-   - This query identifies the driver(s) with the highest number of championships.
+   - This query identifies Lewis Hamilton with the highest number of championships.
 
    ```r
     drivers_F1 %>%
@@ -41,6 +41,7 @@ The dataset underwent several cleaning steps to ensure accurate and meaningful a
 
 3. **Is there a relation between the number of Championships won and the number of race pole positions?**
    - A scatter plot visualizes the relationship between pole positions and championships won.
+   - As expected, there seems to be a positive relationship between the number of pole positions and the number of Championships won.
      
    ```r
     drivers_F1 %>%
